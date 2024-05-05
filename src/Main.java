@@ -11,8 +11,6 @@ public class Main {
             myPila.apilar(10);
 
         eliminarElementos(myPila, 2, 4);
-
-        // Mostrar los elementos restantes de la pila
         while (!myPila.isEmpty()) {
             System.out.println(myPila.desapilar());
         }
